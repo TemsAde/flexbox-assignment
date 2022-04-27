@@ -1,0 +1,13 @@
+.box {
+    width: 100%;
+    height: auto;
+    background-color: hsla(0, 0, 100%, 0.75); 
+}
+
+.SEDAN {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.SUVS {
+    background-color: ;
+}
