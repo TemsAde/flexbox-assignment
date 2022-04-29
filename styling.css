@@ -4,7 +4,6 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .box {
@@ -87,5 +86,10 @@ button {
     border: 1px, solid, hsl(0, 0%, 95%);
     cursor: pointer;
     color: hsl(0, 0%, 95%);
+}
 
+@media only screen and (max-width:760px){
+    .box {
+        flex-direction: column;
+    }
 }
