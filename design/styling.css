@@ -7,10 +7,13 @@ body {
 }
 
 .box {
+    background-color: red;
     width: 65%;
     height: 30rem;
     margin-top: 7%;
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #container {
@@ -91,5 +94,14 @@ button {
 @media only screen and (max-width:760px){
     .box {
         flex-direction: column;
+        width: 40%;
+        height: auto;
+    }
+
+    #container {
+        padding: 15%;
+    }
+    button {
+        margin-top: 0%;
     }
 }
